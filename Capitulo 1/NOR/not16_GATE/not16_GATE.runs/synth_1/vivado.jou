@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 07 21:07:16 2017
+# Process ID: 4776
+# Current directory: C:/Users/Raynara Lima/Documents/Capitulo 1/not16_GATE/not16_GATE.runs/synth_1
+# Command line: vivado.exe -log not16_GATE.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source not16_GATE.tcl
+# Log file: C:/Users/Raynara Lima/Documents/Capitulo 1/not16_GATE/not16_GATE.runs/synth_1/not16_GATE.vds
+# Journal file: C:/Users/Raynara Lima/Documents/Capitulo 1/not16_GATE/not16_GATE.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source not16_GATE.tcl -notrace

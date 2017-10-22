@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Raynara Lima/Documents/Capitulo 1/nand_GATE/nand_GATE.sim/sim_1/impl/func/st_nand_func_impl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity nand_GATE
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Raynara Lima/Documents/Capitulo 1/nand_GATE/nand_GATE.srcs/sim_1/new/st_nand.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity st_nand

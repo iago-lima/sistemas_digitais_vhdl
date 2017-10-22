@@ -1,0 +1,7 @@
+Running: xsim.dir/st_and_GATE_behav/xsimk.exe -simmode gui -wdb st_and_GATE_behav.wdb -simrunnum 0 -socket 49291
+Design successfully loaded
+Design Loading Memory Usage: 6144 KB (Peak: 6144 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 6924 KB (Peak: 6924 KB)
+Simulation CPU Usage: 46 ms

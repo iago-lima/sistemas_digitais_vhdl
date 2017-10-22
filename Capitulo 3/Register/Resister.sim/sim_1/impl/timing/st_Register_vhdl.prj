@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../Resister.srcs/sim_1/new/st_Register.vhd"
+
+# Do not sort compile order
+nosort

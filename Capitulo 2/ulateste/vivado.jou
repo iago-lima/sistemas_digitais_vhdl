@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon May 15 08:40:13 2017
+# Process ID: 996
+# Current directory: C:/Users/Raynara Lima/Documents/Capitulo 2/ulateste
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5180 C:\Users\Raynara Lima\Documents\Capitulo 2\ulateste\ulateste.xpr
+# Log file: C:/Users/Raynara Lima/Documents/Capitulo 2/ulateste/vivado.log
+# Journal file: C:/Users/Raynara Lima/Documents/Capitulo 2/ulateste\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Raynara Lima/Documents/Capitulo 2/ulateste/ulateste.xpr}
+launch_simulation
+source s_ula.tcl
+close_sim

@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl work  "../../../../../Capitulo 2/ULA/ULA.srcs/sources_1/new/ula.vhd"
+vhdl work  "../../../../../Capitulo 1/mux2_16/mux2_16.srcs/sources_1/new/mux2_16.vhd"
+vhdl work  "../../../../../Capitulo 3/counter/counter.srcs/sources_1/new/counter.vhd"
+vhdl work  "../../../../../Capitulo 3/Register/Resister.srcs/sources_1/new/Resister.vhd"
+vhdl xil_defaultlib  "../../../CPU.srcs/sources_1/new/CPU.vhd"
+vhdl xil_defaultlib  "../../../CPU.srcs/sim_1/new/st_CPU.vhd"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 21 17:18:19 2017
+# Process ID: 6452
+# Current directory: C:/Users/Felipe/Documents/VHDL - Sistemas Digitais/Cap 3/Resister/Resister.runs/impl_1
+# Command line: vivado.exe -log Resister.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Resister.tcl -notrace
+# Log file: C:/Users/Felipe/Documents/VHDL - Sistemas Digitais/Cap 3/Resister/Resister.runs/impl_1/Resister.vdi
+# Journal file: C:/Users/Felipe/Documents/VHDL - Sistemas Digitais/Cap 3/Resister/Resister.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Resister.tcl -notrace

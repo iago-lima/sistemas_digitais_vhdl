@@ -1,0 +1,419 @@
+
+*** Running vivado
+    with args -log mux8_16.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source mux8_16.tcl -notrace
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source mux8_16.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 131 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 462.891 ; gain = 245.941
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 473.852 ; gain = 10.824
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 1719f5f00
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1719f5f00
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 968.523 ; gain = 0.000
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant propagation | Checksum: 1719f5f00
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 968.523 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: 1719f5f00
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 968.523 ; gain = 0.000
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 4 BUFG optimization | Checksum: 1719f5f00
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.140 . Memory (MB): peak = 968.523 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 968.523 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1719f5f00
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.140 . Memory (MB): peak = 968.523 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1719f5f00
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 968.523 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+23 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:47 . Memory (MB): peak = 968.523 ; gain = 505.496
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Raynara Lima/Documents/Capitulo 1/mux8_16/mux8_16.runs/impl_1/mux8_16_opt.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Raynara Lima/Documents/Capitulo 1/mux8_16/mux8_16.runs/impl_1/mux8_16_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 968.523 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 968.523 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (131) is greater than number of available sites (100).
+The following Groups of I/O terminals have not sufficient capacity: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  In   RangeId: 1  has only 100 sites available on device, but needs 131 sites.
+	Term: a[0]
+	Term: a[1]
+	Term: a[2]
+	Term: a[3]
+	Term: a[4]
+	Term: a[5]
+	Term: a[6]
+	Term: a[7]
+	Term: a[8]
+	Term: a[9]
+	Term: a[10]
+	Term: a[11]
+	Term: a[12]
+	Term: a[13]
+	Term: a[14]
+	Term: a[15]
+	Term: b[0]
+	Term: b[1]
+	Term: b[2]
+	Term: b[3]
+	Term: b[4]
+	Term: b[5]
+	Term: b[6]
+	Term: b[7]
+	Term: b[8]
+	Term: b[9]
+	Term: b[10]
+	Term: b[11]
+	Term: b[12]
+	Term: b[13]
+	Term: b[14]
+	Term: b[15]
+	Term: c[0]
+	Term: c[1]
+	Term: c[2]
+	Term: c[3]
+	Term: c[4]
+	Term: c[5]
+	Term: c[6]
+	Term: c[7]
+	Term: c[8]
+	Term: c[9]
+	Term: c[10]
+	Term: c[11]
+	Term: c[12]
+	Term: c[13]
+	Term: c[14]
+	Term: c[15]
+	Term: d[0]
+	Term: d[1]
+	Term: d[2]
+	Term: d[3]
+	Term: d[4]
+	Term: d[5]
+	Term: d[6]
+	Term: d[7]
+	Term: d[8]
+	Term: d[9]
+	Term: d[10]
+	Term: d[11]
+	Term: d[12]
+	Term: d[13]
+	Term: d[14]
+	Term: d[15]
+	Term: e[0]
+	Term: e[1]
+	Term: e[2]
+	Term: e[3]
+	Term: e[4]
+	Term: e[5]
+	Term: e[6]
+	Term: e[7]
+	Term: e[8]
+	Term: e[9]
+	Term: e[10]
+	Term: e[11]
+	Term: e[12]
+	Term: e[13]
+	Term: e[14]
+	Term: e[15]
+	Term: f[0]
+	Term: f[1]
+	Term: f[2]
+	Term: f[3]
+	Term: f[4]
+	Term: f[5]
+	Term: f[6]
+	Term: f[7]
+	Term: f[8]
+	Term: f[9]
+	Term: f[10]
+	Term: f[11]
+	Term: f[12]
+	Term: f[13]
+	Term: f[14]
+	Term: f[15]
+	Term: g[0]
+	Term: g[1]
+	Term: g[2]
+	Term: g[3]
+	Term: g[4]
+	Term: g[5]
+	Term: g[6]
+	Term: g[7]
+	Term: g[8]
+	Term: g[9]
+	Term: g[10]
+	Term: g[11]
+	Term: g[12]
+	Term: g[13]
+	Term: g[14]
+	Term: g[15]
+	Term: h[0]
+	Term: h[1]
+	Term: h[2]
+	Term: h[3]
+	Term: h[4]
+	Term: h[5]
+	Term: h[6]
+	Term: h[7]
+	Term: h[8]
+	Term: h[9]
+	Term: h[10]
+	Term: h[11]
+	Term: h[12]
+	Term: h[13]
+	Term: h[14]
+	Term: h[15]
+	Term: s[0]
+	Term: s[1]
+	Term: s[2]
+
+
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (147) is greater than number of available sites (100).
+The following Groups of I/O terminals have not sufficient capacity: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  In   RangeId: 1  has only 100 sites available on device, but needs 131 sites.
+	Term: a[0]
+	Term: a[1]
+	Term: a[2]
+	Term: a[3]
+	Term: a[4]
+	Term: a[5]
+	Term: a[6]
+	Term: a[7]
+	Term: a[8]
+	Term: a[9]
+	Term: a[10]
+	Term: a[11]
+	Term: a[12]
+	Term: a[13]
+	Term: a[14]
+	Term: a[15]
+	Term: b[0]
+	Term: b[1]
+	Term: b[2]
+	Term: b[3]
+	Term: b[4]
+	Term: b[5]
+	Term: b[6]
+	Term: b[7]
+	Term: b[8]
+	Term: b[9]
+	Term: b[10]
+	Term: b[11]
+	Term: b[12]
+	Term: b[13]
+	Term: b[14]
+	Term: b[15]
+	Term: c[0]
+	Term: c[1]
+	Term: c[2]
+	Term: c[3]
+	Term: c[4]
+	Term: c[5]
+	Term: c[6]
+	Term: c[7]
+	Term: c[8]
+	Term: c[9]
+	Term: c[10]
+	Term: c[11]
+	Term: c[12]
+	Term: c[13]
+	Term: c[14]
+	Term: c[15]
+	Term: d[0]
+	Term: d[1]
+	Term: d[2]
+	Term: d[3]
+	Term: d[4]
+	Term: d[5]
+	Term: d[6]
+	Term: d[7]
+	Term: d[8]
+	Term: d[9]
+	Term: d[10]
+	Term: d[11]
+	Term: d[12]
+	Term: d[13]
+	Term: d[14]
+	Term: d[15]
+	Term: e[0]
+	Term: e[1]
+	Term: e[2]
+	Term: e[3]
+	Term: e[4]
+	Term: e[5]
+	Term: e[6]
+	Term: e[7]
+	Term: e[8]
+	Term: e[9]
+	Term: e[10]
+	Term: e[11]
+	Term: e[12]
+	Term: e[13]
+	Term: e[14]
+	Term: e[15]
+	Term: f[0]
+	Term: f[1]
+	Term: f[2]
+	Term: f[3]
+	Term: f[4]
+	Term: f[5]
+	Term: f[6]
+	Term: f[7]
+	Term: f[8]
+	Term: f[9]
+	Term: f[10]
+	Term: f[11]
+	Term: f[12]
+	Term: f[13]
+	Term: f[14]
+	Term: f[15]
+	Term: g[0]
+	Term: g[1]
+	Term: g[2]
+	Term: g[3]
+	Term: g[4]
+	Term: g[5]
+	Term: g[6]
+	Term: g[7]
+	Term: g[8]
+	Term: g[9]
+	Term: g[10]
+	Term: g[11]
+	Term: g[12]
+	Term: g[13]
+	Term: g[14]
+	Term: g[15]
+	Term: h[0]
+	Term: h[1]
+	Term: h[2]
+	Term: h[3]
+	Term: h[4]
+	Term: h[5]
+	Term: h[6]
+	Term: h[7]
+	Term: h[8]
+	Term: h[9]
+	Term: h[10]
+	Term: h[11]
+	Term: h[12]
+	Term: h[13]
+	Term: h[14]
+	Term: h[15]
+	Term: s[0]
+	Term: s[1]
+	Term: s[2]
+
+
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 13 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 35 |    50 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   100 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: fc427855
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 986.176 ; gain = 17.652
+Phase 1 Placer Initialization | Checksum: fc427855
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 986.176 ; gain = 17.652
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: fc427855
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 986.176 ; gain = 17.652
+INFO: [Common 17-83] Releasing license: Implementation
+37 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 07 22:19:35 2017...

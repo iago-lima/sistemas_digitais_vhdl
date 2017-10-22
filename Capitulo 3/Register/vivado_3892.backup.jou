@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon May 15 10:24:17 2017
+# Process ID: 3892
+# Current directory: E:/Sistemas Digitais/Cap 3/Register
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5972 E:\Sistemas Digitais\Cap 3\Register\Resister.xpr
+# Log file: E:/Sistemas Digitais/Cap 3/Register/vivado.log
+# Journal file: E:/Sistemas Digitais/Cap 3/Register\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Sistemas Digitais/Cap 3/Register/Resister.xpr}

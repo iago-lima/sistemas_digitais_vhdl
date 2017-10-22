@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Apr 17 08:35:55 2017
+# Process ID: 5528
+# Current directory: C:/Users/Raynara Lima/Documents/Capitulo 1/and16_GATE
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5432 C:\Users\Raynara Lima\Documents\Capitulo 1\and16_GATE\and16_GATE.xpr
+# Log file: C:/Users/Raynara Lima/Documents/Capitulo 1/and16_GATE/vivado.log
+# Journal file: C:/Users/Raynara Lima/Documents/Capitulo 1/and16_GATE\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Raynara Lima/Documents/Capitulo 1/and16_GATE/and16_GATE.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:24 . Memory (MB): peak = 781.461 ; gain = 154.715
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 17 08:37:19 2017...

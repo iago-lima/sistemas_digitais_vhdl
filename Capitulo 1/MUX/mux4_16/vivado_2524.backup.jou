@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 07 08:28:34 2017
+# Process ID: 2524
+# Current directory: C:/Users/Raynara Lima/Documents/Capitulo 1/mux4_16
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1760 C:\Users\Raynara Lima\Documents\Capitulo 1\mux4_16\mux4_16.xpr
+# Log file: C:/Users/Raynara Lima/Documents/Capitulo 1/mux4_16/vivado.log
+# Journal file: C:/Users/Raynara Lima/Documents/Capitulo 1/mux4_16\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Raynara Lima/Documents/Capitulo 1/mux4_16/mux4_16.xpr}
+launch_simulation
+source st_mux4_16.tcl
+close_sim

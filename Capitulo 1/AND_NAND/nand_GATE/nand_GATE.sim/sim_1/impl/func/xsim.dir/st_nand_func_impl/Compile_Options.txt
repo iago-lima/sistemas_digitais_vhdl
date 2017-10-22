@@ -1,0 +1,1 @@
+-wto "be5138f4296a4361a0279562dfd89716" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "st_nand_func_impl" "xil_defaultlib.st_nand" -log "elaborate.log" 

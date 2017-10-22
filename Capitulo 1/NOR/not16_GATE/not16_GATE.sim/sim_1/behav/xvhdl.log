@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Raynara Lima/Documents/Capitulo 1/not16_GATE/not16_GATE.srcs/sources_1/new/not16_GATE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity not16_GATE
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Raynara Lima/Documents/Capitulo 1/not16_GATE/not16_GATE.srcs/sim_1/new/st_no16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity st_or16

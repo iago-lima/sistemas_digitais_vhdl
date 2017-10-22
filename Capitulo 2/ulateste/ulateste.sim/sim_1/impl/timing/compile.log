@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Raynara Lima/Documents/Capitulo 2/ulateste/ulateste.sim/sim_1/impl/timing/s_ula_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ulateste
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Raynara Lima/Documents/Capitulo 2/ulateste/ulateste.srcs/sim_1/new/s_ula.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity s_ula

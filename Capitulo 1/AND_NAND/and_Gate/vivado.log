@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Jun 30 11:48:59 2017
+# Process ID: 5856
+# Current directory: G:/Sistemas Digitais/Capitulo 1/AND_NAND/and_Gate
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4148 G:\Sistemas Digitais\Capitulo 1\AND_NAND\and_Gate\and_Gate.xpr
+# Log file: G:/Sistemas Digitais/Capitulo 1/AND_NAND/and_Gate/vivado.log
+# Journal file: G:/Sistemas Digitais/Capitulo 1/AND_NAND/and_Gate\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 30 11:49:32 2017...

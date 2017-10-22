@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Raynara Lima/Documents/Capitulo 1/or_GATE/or_GATE.sim/sim_1/synth/timing/st_or_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or_GATE
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Raynara Lima/Documents/Capitulo 1/or_GATE/or_GATE.srcs/sim_1/new/st_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity st_or

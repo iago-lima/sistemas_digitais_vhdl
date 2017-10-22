@@ -1,0 +1,7 @@
+Running: xsim.dir/st_not_time_impl/xsimk.exe -simmode gui -wdb st_not_time_impl.wdb -simrunnum 0 -socket 49535
+Design successfully loaded
+Design Loading Memory Usage: 6196 KB (Peak: 6196 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 7040 KB (Peak: 7040 KB)
+Simulation CPU Usage: 77 ms

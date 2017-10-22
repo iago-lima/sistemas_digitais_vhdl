@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1492565868">
+  <File Type="ROUTE-PWR-RPX" Name="ulateste_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="ulateste.tcl"/>
+  <File Type="INIT-TIMING" Name="ulateste_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ulateste_methodology_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="ulateste_drc_pwropted.rpt"/>
+  <File Type="RDI-RDI" Name="ulateste.vdi"/>
+  <File Type="OPT-DCP" Name="ulateste_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="ulateste.hwdef"/>
+  <File Type="OPT-DRC" Name="ulateste_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="ulateste_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="ulateste_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="ulateste_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ulateste_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ulateste_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ulateste_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ulateste_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ulateste_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ulateste_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ulateste_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ulateste_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="ulateste_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ulateste_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ulateste_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ulateste_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ulateste_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="ulateste_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ulateste_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ulateste_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ulateste_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ulateste_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ulateste_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="ulateste_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="ulateste.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ulateste_methodology_drc_routed.rpt"/>
+  <File Type="BG-DRC" Name="ulateste.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ulateste_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="ulateste.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ulateste_methodology_drc_routed.pb"/>
+  <File Type="BG-BGN" Name="ulateste.bgn"/>
+  <File Type="ROUTE-PWR" Name="ulateste_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="ulateste_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="ulateste_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ulateste_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ulateste_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ulateste_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ulateste_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ulateste_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ulateste_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ulateste_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ulateste_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ulateste_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ulateste_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ulateste_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="ulateste.bit"/>
+  <File Type="BITSTR-RBT" Name="ulateste.rbt"/>
+  <File Type="BITSTR-NKY" Name="ulateste.nky"/>
+  <File Type="BITSTR-BMM" Name="ulateste_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="ulateste.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="ulateste.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ulateste.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ulateste"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

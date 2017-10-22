@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Raynara Lima/Documents/Capitulo 1/and16_GATE/and16_GATE.sim/sim_1/impl/timing/st_and16_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and16_GATE
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Raynara Lima/Documents/Capitulo 1/and16_GATE/and16_GATE.srcs/sim_1/new/st_and16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity st_and16

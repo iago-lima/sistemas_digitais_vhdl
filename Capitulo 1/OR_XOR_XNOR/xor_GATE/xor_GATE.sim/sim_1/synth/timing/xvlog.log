@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Raynara Lima/Documents/Capitulo 1/xor_GATE/xor_GATE.sim/sim_1/synth/timing/st_xor_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor_GATE
+INFO: [VRFC 10-311] analyzing module glbl

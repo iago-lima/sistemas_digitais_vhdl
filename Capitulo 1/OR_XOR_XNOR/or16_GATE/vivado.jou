@@ -1,0 +1,119 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Apr 06 18:52:08 2017
+# Process ID: 972
+# Current directory: C:/Users/Raynara Lima/Documents/cap1/or16_GATE
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2668 C:\Users\Raynara Lima\Documents\cap1\or16_GATE\or16_GATE.xpr
+# Log file: C:/Users/Raynara Lima/Documents/cap1/or16_GATE/vivado.log
+# Journal file: C:/Users/Raynara Lima/Documents/cap1/or16_GATE\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Raynara Lima/Documents/cap1/or16_GATE/or16_GATE.xpr}
+close_project
+open_project {C:/Users/Raynara Lima/Documents/cap1/dmux1_2/dmux1_2.xpr}
+launch_simulation
+source st_dmux1_2.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source st_dmux1_2.tcl
+close_sim
+launch_simulation
+source st_dmux1_2.tcl
+set_property -name {xsim.simulate.runtime} -value {1000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source st_dmux1_2.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source st_dmux1_2.tcl
+close_sim
+launch_simulation
+source st_dmux1_2.tcl
+close_sim
+launch_simulation
+launch_simulation
+source st_dmux1_2.tcl
+set_property -name {xsim.simulate.runtime} -value {400ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source st_dmux1_2.tcl
+close_sim
+close_project
+open_project {C:/Users/Raynara Lima/Documents/cap1/dmux1_4/dmux1_4.xpr}
+launch_simulation
+launch_simulation
+launch_simulation
+source st_dmux1_4.tcl
+close_sim
+close_project
+create_project mux16 {C:/Users/Raynara Lima/Documents/cap1/mux16} -part xc7z010clg400-1
+set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sources_1/new
+set_property target_language VHDL [current_project]
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sources_1/new
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sources_1/new
+file mkdir {C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sources_1/new}
+close [ open {C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sources_1/new/mux16.vhd} w ]
+add_files {{C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sources_1/new/mux16.vhd}}
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sim_1/new
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sim_1/new
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sim_1/new
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sim_1/new
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sim_1/new
+file mkdir {C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sim_1/new}
+close [ open {C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sim_1/new/st_mux16.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/Raynara Lima/Documents/cap1/mux16/mux16.srcs/sim_1/new/st_mux16.vhd}}
+update_compile_order -fileset sim_1
+launch_simulation
+source st_mux16.tcl
+close_sim
+launch_simulation
+source st_mux16.tcl
+close_sim
+close_project
+create_project mux4_16 {C:/Users/Raynara Lima/Documents/cap1/mux4_16} -part xc7z010clg400-1
+set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sources_1/new
+set_property target_language VHDL [current_project]
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sources_1/new
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sources_1/new
+file mkdir {C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sources_1/new}
+close [ open {C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sources_1/new/mux4_16.vhd} w ]
+add_files {{C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sources_1/new/mux4_16.vhd}}
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sim_1/new
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sim_1/new
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sim_1/new
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sim_1/new
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sim_1/new
+file mkdir {C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sim_1/new}
+close [ open {C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sim_1/new/st_mux4_16.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/Raynara Lima/Documents/cap1/mux4_16/mux4_16.srcs/sim_1/new/st_mux4_16.vhd}}
+update_compile_order -fileset sim_1
+launch_simulation
+source st_mux4_16.tcl
+close_sim
+launch_simulation
+launch_simulation
+source st_mux4_16.tcl
+close_sim
+close_project

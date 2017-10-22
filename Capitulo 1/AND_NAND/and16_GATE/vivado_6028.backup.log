@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Apr 05 11:39:33 2017
+# Process ID: 6028
+# Current directory: C:/Users/Raynara Lima/Documents/cap1/and16_GATE
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5760 C:\Users\Raynara Lima\Documents\cap1\and16_GATE\and16_GATE.xpr
+# Log file: C:/Users/Raynara Lima/Documents/cap1/and16_GATE/vivado.log
+# Journal file: C:/Users/Raynara Lima/Documents/cap1/and16_GATE\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Raynara Lima/Documents/cap1/and16_GATE/and16_GATE.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 798.480 ; gain = 152.031
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'st_and16' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Raynara Lima/Documents/cap1/and16_GATE/and16_GATE.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj st_and16_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Raynara Lima/Documents/cap1/and16_GATE/and16_GATE.srcs/sources_1/new/and16_GATE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity and16_GATE
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Raynara Lima/Documents/cap1/and16_GATE/and16_GATE.srcs/sim_1/new/st_and16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity st_and16
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Raynara Lima/Documents/cap1/and16_GATE/and16_GATE.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 0e4ec6d2864b4aa08b643d2cf9b257e9 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot st_and16_behav xil_defaultlib.st_and16 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.and16_GATE [and16_gate_default]
+Compiling architecture behavioral of entity xil_defaultlib.st_and16
+Built simulation snapshot st_and16_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Raynara -notrace
+couldn't read file "C:/Users/Raynara": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Wed Apr 05 11:48:58 2017...
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 808.402 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Raynara Lima/Documents/cap1/and16_GATE/and16_GATE.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "st_and16_behav -key {Behavioral:sim_1:Functional:st_and16} -tclbatch {st_and16.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source st_and16.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1600ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'st_and16_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1600ns
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 808.402 ; gain = 24.844
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 811.414 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 05 12:41:34 2017...

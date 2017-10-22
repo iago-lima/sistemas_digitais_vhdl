@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 07 21:44:06 2017
+# Process ID: 5528
+# Current directory: C:/Users/Raynara Lima/Documents/Capitulo 1/and16_GATE/and16_GATE.sim/sim_1/impl/timing
+# Command line: wbtcv.exe -mode batch -source C:/Users/Raynara Lima/Documents/Capitulo 1/and16_GATE/and16_GATE.sim/sim_1/impl/timing/xsim.dir/st_and16_time_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Raynara Lima/Documents/Capitulo 1/and16_GATE/and16_GATE.sim/sim_1/impl/timing/webtalk.log
+# Journal file: C:/Users/Raynara Lima/Documents/Capitulo 1/and16_GATE/and16_GATE.sim/sim_1/impl/timing\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Raynara -notrace
+couldn't read file "C:/Users/Raynara": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 07 21:44:06 2017...

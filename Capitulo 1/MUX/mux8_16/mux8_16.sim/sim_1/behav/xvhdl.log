@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Raynara Lima/Documents/cap1/mux8_16/mux8_16.srcs/sources_1/new/mux8_16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux8_16
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Raynara Lima/Documents/cap1/mux8_16/mux8_16.srcs/sim_1/new/st_mux8_16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity st_mux8_16
